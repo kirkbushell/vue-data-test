@@ -11,8 +11,8 @@ class CategoryFake
 
             'translated' => array(
                 'en_GB' => array(
-                    'name' => 'Greatz! &lt;b&gt;Escaped html&lt;/b&gt;',
-                    'nameWithHtml' => '<b>Bold</b> and <a href="http://google.com">Link to google</a>',
+                    'name' => '&lt;b&gt;Escaped html&lt;/b&gt;',
+                    'nameWithHtml' => '<b>Bold</b> and <i><a href="http://google.com">Link to google</a></i>',
                     'description' => 'Start / &quot; / &#34; / &apos; / &#039; / &#61; / " / \' / \ / & / &amp; / End',
                     'shortcode' => 'TheV',
                     'entryNameLabel' => '',
